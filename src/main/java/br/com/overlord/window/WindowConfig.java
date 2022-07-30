@@ -4,8 +4,8 @@ import java.awt.CardLayout;
 
 import javax.swing.JPanel;
 
-import br.com.overlord.gui.LoginPanel;
-import br.com.overlord.gui.MainPanel;
+import br.com.overlord.gui.login.LoginPanel;
+import br.com.overlord.gui.main.MainPanel;
 
 public class WindowConfig {
 

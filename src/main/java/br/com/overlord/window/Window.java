@@ -1,22 +1,23 @@
 package br.com.overlord.window;
 
 import java.awt.Image;
-import java.awt.Toolkit;
+import java.io.IOException;
 import java.net.URL;
 
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 public class Window extends JFrame {
 
-	public Window(String title) {
+	public Window(String title) throws IOException {
 		this.setTitle(title);
-		this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		this.setBounds(0,0,720,360);
+		
+		this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		URL caminhoImagem = this.getClass().getResource("ainz.png");
-	    Image iconeTitulo = Toolkit.getDefaultToolkit().getImage(caminhoImagem);
-	    setIconImage(iconeTitulo);
+	    Image icon = ImageIO.read(getClass().getResourceAsStream("/image/ainz.png"));
+	    setIconImage(icon);
 		
 		this.add(WindowConfig.generateSPA());
 		

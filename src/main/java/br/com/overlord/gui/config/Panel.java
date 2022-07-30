@@ -1,4 +1,4 @@
-package br.com.overlord.gui;
+package br.com.overlord.gui.config;
 
 import java.awt.Color;
 
