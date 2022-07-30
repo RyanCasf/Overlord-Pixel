@@ -8,5 +8,6 @@ public class Panel extends JPanel {
 	
 	public Panel() {
 		this.setBackground(Color.decode("#202028"));
+		this.setLayout(null);
 	}
 }
