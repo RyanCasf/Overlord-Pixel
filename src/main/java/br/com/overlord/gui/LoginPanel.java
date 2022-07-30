@@ -5,11 +5,10 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
-import javax.swing.JPanel;
 
 import br.com.overlord.window.WindowConfig;
 
-public class LoginPanel extends JPanel implements ActionListener {
+public class LoginPanel extends Panel implements ActionListener {
 	
 	public static final String NAME_PAGE = "Enter";
 	

@@ -1,14 +1,13 @@
 package br.com.overlord.gui;
 
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MainPanel extends JPanel implements ActionListener {
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+public class MainPanel extends Panel implements ActionListener {
 	
 	public static final String NAME_PAGE = "Main Page";
 	
