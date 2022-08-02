@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
 import br.com.overlord.gui.main.MainPanel;
+import br.com.overlord.init.dao.ReadDAO;
 import br.com.overlord.window.WindowConfig;
 import br.com.overlord.window.WindowUtil;
 
@@ -30,6 +31,7 @@ public class Button extends JButton implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent event) {
+		System.out.println(ReadDAO.read());
 		WindowConfig.alterScreen(MainPanel.NAME_PAGE);
 	}
 }
