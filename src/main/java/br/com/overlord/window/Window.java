@@ -1,8 +1,6 @@
 package br.com.overlord.window;
 
-import java.awt.Dimension;
 import java.awt.Image;
-import java.awt.Toolkit;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
@@ -10,8 +8,6 @@ import javax.swing.JFrame;
 
 public class Window extends JFrame {
 
-	private static Dimension dimension;
-	
 	public Window(String title) {
 		this.setTitle(title);
 		this.setBounds(0,0,720,360);
@@ -22,8 +18,6 @@ public class Window extends JFrame {
 		icon();
 		this.add(WindowConfig.generateSPA());
 		
-		 dimension = Toolkit.getDefaultToolkit().getScreenSize();
-
 		this.setUndecorated(false);
 		this.setVisible(true);
 	}
@@ -36,9 +30,5 @@ public class Window extends JFrame {
 		catch (IOException e) {
 			System.err.println("Icon not found!");
 		}
-	}
-	
-	public static Dimension getDimension() {
-		return dimension;
 	}
 }
