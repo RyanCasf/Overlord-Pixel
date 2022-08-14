@@ -7,6 +7,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 public class Window extends JFrame {
+	private static final long serialVersionUID = -3367425004394217829L;
 
 	public Window(String title) {
 		this.setTitle(title);

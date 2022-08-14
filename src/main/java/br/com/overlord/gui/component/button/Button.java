@@ -13,6 +13,8 @@ import br.com.overlord.window.WindowUtil;
 
 public class Button extends JButton implements ActionListener {
 
+	private static final long serialVersionUID = 1L;
+
 	public Button(String title) {
 		super(title);
 		addActionListener(this);
@@ -31,7 +33,7 @@ public class Button extends JButton implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent event) {
-		System.out.println(ReadDAO.read());
+		System.out.println(ReadDAO.json());
 		WindowConfig.alterScreen(MainPanel.NAME_PAGE);
 	}
 }

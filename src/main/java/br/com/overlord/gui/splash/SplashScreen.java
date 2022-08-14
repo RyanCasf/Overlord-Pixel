@@ -10,6 +10,7 @@ import br.com.overlord.window.WindowConfig;
 import br.com.overlord.window.WindowUtil;
 
 public class SplashScreen extends Panel {
+	private static final long serialVersionUID = 6460081552355499340L;
 	
 	public static final String NAME_PAGE = "Splash";
 	private static JProgressBar progressBar = new JProgressBar();
