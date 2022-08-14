@@ -1,14 +1,10 @@
 package br.com.overlord.gui.component.button;
 
 import java.awt.Color;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 
-import br.com.overlord.gui.main.MainPanel;
-import br.com.overlord.init.dao.ReadDAO;
-import br.com.overlord.window.WindowConfig;
 import br.com.overlord.window.WindowUtil;
 
 public class Button extends JButton {
