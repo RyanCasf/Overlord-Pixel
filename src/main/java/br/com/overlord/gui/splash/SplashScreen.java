@@ -23,8 +23,9 @@ public class SplashScreen extends Panel {
 	public static void start() {
 		progressBar.setBounds(0,(WindowUtil.getDimension().height - 92),(WindowUtil.getDimension().width - 1),20);
 		progressBar.setValue(0);
-		progressBar.setBackground(Color.WHITE);
-		progressBar.setForeground(Color.GREEN);
+		progressBar.setBackground(Color.decode("#202028"));
+		progressBar.setForeground(Color.decode("#8a68ea"));
+		progressBar.setBorderPainted(false);
 		
 		try {
 			for (byte i=0; i<=100; i++) {
