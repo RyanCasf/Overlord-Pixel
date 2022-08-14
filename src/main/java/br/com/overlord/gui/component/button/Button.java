@@ -11,13 +11,13 @@ import br.com.overlord.init.dao.ReadDAO;
 import br.com.overlord.window.WindowConfig;
 import br.com.overlord.window.WindowUtil;
 
-public class Button extends JButton implements ActionListener {
+public class Button extends JButton {
 
 	private static final long serialVersionUID = 1L;
 
-	public Button(String title) {
+	public Button(String title, ActionListener actionListener) {
 		super(title);
-		addActionListener(this);
+		addActionListener(actionListener);
 		setFocusPainted(false);
 		setBorderPainted(false);
 		setBackground(Color.decode("#6d5dd3"));
@@ -29,11 +29,5 @@ public class Button extends JButton implements ActionListener {
 				100,
 				30
 		);
-	}
-	
-	@Override
-	public void actionPerformed(ActionEvent event) {
-		System.out.println(ReadDAO.json());
-		WindowConfig.alterScreen(MainPanel.NAME_PAGE);
 	}
 }
