@@ -1,7 +1,7 @@
 package br.com.overlord.gui.login;
 
-import br.com.overlord.gui.component.button.Button;
-import br.com.overlord.gui.config.Panel;
+import br.com.overlord.gui.component.Button;
+import br.com.overlord.gui.component.Panel;
 import br.com.overlord.gui.main.MainPanel;
 import br.com.overlord.init.dao.ReadDAO;
 import br.com.overlord.window.WindowConfig;

@@ -1,6 +1,6 @@
 package br.com.overlord.gui.main;
 
-import br.com.overlord.gui.config.Panel;
+import br.com.overlord.gui.component.Panel;
 
 public class MainPanel extends Panel {
 	private static final long serialVersionUID = -3049107050106535475L;

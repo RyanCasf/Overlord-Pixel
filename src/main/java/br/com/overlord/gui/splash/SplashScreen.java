@@ -4,7 +4,7 @@ import java.awt.Color;
 
 import javax.swing.JProgressBar;
 
-import br.com.overlord.gui.config.Panel;
+import br.com.overlord.gui.component.Panel;
 import br.com.overlord.gui.login.LoginPanel;
 import br.com.overlord.window.WindowConfig;
 import br.com.overlord.window.WindowUtil;

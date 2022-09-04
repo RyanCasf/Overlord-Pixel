@@ -1,4 +1,4 @@
-package br.com.overlord.gui.component.button;
+package br.com.overlord.gui.component;
 
 import java.awt.Color;
 import java.awt.event.ActionListener;
