@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 
 public class Window extends JFrame {
 	private static final long serialVersionUID = -3367425004394217829L;
@@ -14,7 +15,7 @@ public class Window extends JFrame {
 		this.setBounds(0,0,720,360);
 		
 		this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		icon();
 		this.add(WindowConfig.generateSPA());
