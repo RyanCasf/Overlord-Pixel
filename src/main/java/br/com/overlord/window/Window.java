@@ -16,6 +16,7 @@ public class Window extends JFrame {
 		
 		this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
 		
 		icon();
 		this.add(WindowConfig.generateSPA());
