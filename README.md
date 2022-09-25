@@ -1,4 +1,6 @@
 # OVERLORD - PIXEL
+Action-adventure game in pixel set in world of the fantasy, Overlord (Kugane Maruyama).
+<hr />
 
 ## About
 
