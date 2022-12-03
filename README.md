@@ -1,12 +1,11 @@
 # OVERLORD - PIXEL
 Action-adventure game in pixel set in world of the fantasy, Overlord (Kugane Maruyama).
-<hr />
 
 ## About
 
 <pre>
-Crédito:
+Realizador:
 ° RYAN CASTRO FERREIRA.
+<b style="color: blue;">LinkdIn </b>- <a href="https://www.linkedin.com/in/ryan-castro-ferreira">https://www.linkedin.com/in/ryan-castro-ferreira/</a>
+<b style="color: red;">Email </b>- ryancasf@gmail.com
 </pre>
-<b>LinkdIn </b>- https://www.linkedin.com/in/ryan-castro-ferreira/ <br>
-<b>Email </b>- ryancasf@gmail.com <br> <br>
