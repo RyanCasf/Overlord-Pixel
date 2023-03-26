@@ -13,7 +13,9 @@ public class MainPanel extends Panel {
 	public MainPanel() {
 		super();
 		
-		add(new Button(
-				"Play", e -> WindowConfig.alterScreen(GamePanel.NAME_PAGE)));
+		Button btnPlay = new Button("Play", e -> WindowConfig.alterScreen(GamePanel.NAME_PAGE));
+		btnPlay.setFont(null);
+		
+		add(btnPlay);
 	}
 }
