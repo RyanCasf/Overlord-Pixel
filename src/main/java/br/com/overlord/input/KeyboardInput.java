@@ -35,6 +35,9 @@ public class KeyboardInput implements KeyListener {
 			case KeyEvent.VK_W:
 				System.out.println("W");
 				break;
+				
+			default:
+				System.err.println("Error in keyboard");
 		}
 	}
 }

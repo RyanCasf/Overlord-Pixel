@@ -18,6 +18,7 @@ public class GamePanel extends Panel {
 		addKeyListener(new KeyboardInput());
 	}
 	
+	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		

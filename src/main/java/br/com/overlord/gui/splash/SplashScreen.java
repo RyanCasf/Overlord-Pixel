@@ -5,7 +5,7 @@ import java.awt.Color;
 import javax.swing.JProgressBar;
 
 import br.com.overlord.gui.component.Panel;
-import br.com.overlord.gui.login.LoginPanel;
+import br.com.overlord.gui.main.MainPanel;
 import br.com.overlord.window.WindowConfig;
 import br.com.overlord.window.WindowUtil;
 
@@ -38,6 +38,6 @@ public class SplashScreen extends Panel {
 			Thread.currentThread().interrupt();
 		}
 		
-		WindowConfig.alterScreen(LoginPanel.NAME_PAGE);
+		WindowConfig.alterScreen(MainPanel.NAME_PAGE);
 	}
 }
