@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1705558868
+icon.svg::CompressedTexture2D::5454204291933184616::1705558533::1705558542::1::::<><>::
+::res://Menu/::1705558600
+::res://Menu/Assets/::1705559619
+ainz.png::CompressedTexture2D::9185861179583341177::1705559618::1705559619::1::::<><>::
+::res://Menu/Scenes/::1705560289
+Menu.tscn::PackedScene::2531819459259614423::1705560227::0::1::::<><>::res://Menu/Scripts/Menu.gd
+Level_00.tscn::PackedScene::8697946417527320232::1705560289::0::1::::<><>::
+::res://Menu/Scripts/::1705560125
+Menu.gd::GDScript::-1::1705560125::0::1::::<>Control<>::
